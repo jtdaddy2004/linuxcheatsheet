@@ -208,7 +208,7 @@ ls -lsa     			-to list everything in the directory along with permissions
 
 
 
-<img src="ssh.png" alt="SSH" width="200px" />
+<img src="images/ssh.png" alt="SSH" width="200px" />
 
 <------SSH------>
 
@@ -224,7 +224,7 @@ SCP 				    -secure copy
 
 
 
-<img src="logs.png" alt="Logs" width="200px" />
+<img src="images/logs.png" alt="Logs" width="200px" />
 
 <------Analyzing and Storing Logs------>
 
@@ -250,7 +250,7 @@ Paging System
 
 
 
-<img src="networking.jpg" alt="NW" width="200px" />
+<img src="images/networking.jpg" alt="NW" width="200px" />
 
 <------Networking------>
 
@@ -265,7 +265,7 @@ traceroute			    -tracks  the route packets taken from an IP network on their wa
 
 
 
-<img src="Copy-Paste.jpg" alt="Copy-Paste" width="200px" />
+<img src="images/Copy-Paste.jpg" alt="Copy-Paste" width="200px" />
 
 <------Copy files between systems------>
 
@@ -301,7 +301,7 @@ Zipping
 
 
 
-<img src="sysstl.jpg" alt="sysctl" width="200px" />
+<img src="images/sysstl.jpg" alt="sysctl" width="200px" />
 
 <------Control Services and Daemons------>
 
@@ -318,7 +318,7 @@ socat 				    -establishes two bidirectional byte streams  and  transfers  data 
 
 
 
-<img src="dp.jpg" alt="dp" width="200px" />
+<img src="images/dp.jpg" alt="dp" width="200px" />
 
 <------Random------>
 
@@ -339,7 +339,7 @@ umask  					-file creation permission
 
 
 
-<img src="dp2.jpg" alt="dp2" width="200px" />
+<img src="images/dp2.jpg" alt="dp2" width="200px" />
 
 <------------------------------------------------Ninja Tricks---------------------------------------------------------------------->
 
@@ -375,7 +375,7 @@ linux cert book filetype:pdf - this is how we find books
 
 
 
-<img src="tux.jpg" alt="tux" width="200px" />
+<img src="images/tux.jpg" alt="tux" width="200px" />
 
 <------------------------------------------------Good ISH---------------------------------------------------------------------->
 
@@ -390,7 +390,7 @@ Zorin - a good distro for Linux
 
 
 
-<img src="hi.jpg" alt="hi" width="200px" />
+<img src="images/hi.jpg" alt="hi" width="200px" />
 
 <------------------------------------------------VI---------------------------------------------------------------------->
 
