@@ -22,29 +22,37 @@ cp 					    -copy files and directories
 
 cut
 ``` 						
+
 						-d delimiter (whhat separates the rows? tabs, commas, spaces)
 						-f fields you would like to select (first row, last row, rows 2-3, first 5 rows, last five rows)
 						-c the number of characters you would like to select
+
 ```						
 
 df -h 				    -displays disk space available on the file system containing each file name argument
-```					    
+```
+
 					    -h makes it a human readable allowing to see in bytes and gb
 					    -df -h | sort -k5,2 -h -r  (sort by columns -k = columns adding numbers sorts by specific column.  Adding a comma allows to sort first column 	  first and then by the second number) -r reverses the order
+
 ```					    
 
 du -h 				    -shows disk usage in human format
 ````					    
+
 					    -a -archive recursively, preserving permissions, ownership, links and not following symbolic links
 					    -R or -r -copies directories recursively
+
 ````
 
 ls 					    -shows a list of what is in a directory
 ```	
+
 	| xargs sudo 	    -is a command that takes stream of information and makes it an arugument 
 	du -s -h 		    -is useful to show the disk usage in human form while working with xargs
 	| sort -h  		    -is sorting in human format
 					    -EX: ls | xargs sudo du -s -h | sort -h
+
 ```
 
 mkdir "name"            -to make a directory
