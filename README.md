@@ -1,20 +1,6 @@
 # linuxcheatsheet
 
 
-List block devices
-
-```
-lsblk -f
-NAME   FSTYPE LABEL     UUID                                 MOUNTPOINT
-sda                                                          
-├─sda1 ntfs   Windows 7 9E4A5AFE4A5AD31F                     
-└─sda2 ext4             3329d6bf-09b3-4af5-8b02-c2b41dc22480 /
-sdb                                                          
-└─sdb1 ntfs   Data      6E86D5F486D5BD31                     
-sr0 
-```
-
-
 
 
 <------------------------------------------------Commands---------------------------------------------------------------------->
@@ -157,6 +143,15 @@ killall                 -sends signals to process by name
 lastb                   -gives a list of bad logins, use sudo to get the root level showing all bad logins, not only your users
 
 lsblk -f 			    -this gives information on drives or block devices
+
+						NAME   FSTYPE LABEL     UUID                                 MOUNTPOINT
+						sda                                                          
+						├─sda1 ntfs   Windows 7 9E4A5AFE4A5AD31F                     
+						└─sda2 ext4             3329d6bf-09b3-4af5-8b02-c2b41dc22480 /
+						sdb                                                          
+						└─sdb1 ntfs   Data      6E86D5F486D5BD31                     
+						sr0 
+
 
 nice                    -a particular priority, giving the process more or less CPU time than other processes
 
