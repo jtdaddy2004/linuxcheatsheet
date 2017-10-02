@@ -12,9 +12,11 @@
 
 ```
 
-<img src="images/linux.jpg" alt="Tux" width="200px" />
+<img src="images/linux.jpg" alt="Tux" width="400px" />
 
+```
 
+```
 
 
 <------File Managment CMD------>
@@ -128,7 +130,9 @@ wc -l  					-(count number of lines in file)
 wc -c  					-(count number of characters in file)
 wc -l 					-(count number of files and folders)
 
-	
+```
+
+```	
 
 
 
@@ -153,9 +157,9 @@ usermod				    -modify a user account
 		-L -lock an account
 		-l rename an account 
 
+```
 
-
-
+```
 
 
 <------Processes------>
@@ -214,7 +218,9 @@ uptime                  -just gives uptime of the server
 
 useradd "user name"     -how qto add a user
 
+```
 
+```
 
 
 
@@ -233,7 +239,9 @@ Chowmn                  -change owner
 
 ls -lsa     			-to list everything in the directory along with permissions
 
+```
 
+```
 
 
 
@@ -254,7 +262,9 @@ kill -HUP or (PID) 	    -tells the service to reread the config file
 
 SCP 				    -secure copy
 
+```
 
+```
 
 
 
@@ -286,7 +296,9 @@ Paging System
 		-ctrl u 	-takes you up a page
 		-grep		-allows to do an advanced search
 
+```
 
+```
 
 
 
@@ -307,7 +319,9 @@ tracepatch 				-traces path to a network host discovering MTU along this path
 
 traceroute			    -tracks  the route packets taken from an IP network on their way to a given host
 
+```
 
+```
 
 
 
@@ -350,7 +364,9 @@ Zipping
 		-j -bip2 compression
 		-J -xz compression
 
+```
 
+```
 
 
 
@@ -373,7 +389,9 @@ systemd 				-a service manager for Linux operating systems. It acts as init syst
 
 socat 				    -establishes two bidirectional byte streams  and  transfers  data  between  them
 
+```
 
+```
 
 
 
@@ -400,7 +418,9 @@ sudo 				    -execute a command as another user, usually used as a one time comm
 
 umask  					-file creation permission
 
+```
 
+```
 
 
 
@@ -442,7 +462,9 @@ tab - to auto complete words or files as long as the command doesn't have multip
 
 linux cert book filetype:pdf - this is how we find books
 
+```
 
+```
 
 
 
@@ -466,7 +488,9 @@ logwatch - log analysis system. Logwatch parses through your system's logs and c
 
 Zorin - a good distro for Linux
 
+```
 
+```
 
 
 
