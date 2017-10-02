@@ -392,7 +392,7 @@ Zipping
 ```
 ```	
 
-<img src="images/sysstl.jpg" alt="sysctl" width="200px" />
+<img src="images/sysctl.jpg" alt="sysctl" width="200px" />
 
 ```
 ```
