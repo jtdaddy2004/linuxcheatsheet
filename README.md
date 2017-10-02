@@ -8,6 +8,8 @@
 
 
 
+
+
 <------File Managment CMD------>
 
 ~                       -is used to refer to home, putting a ~/ allows you to quickly type the path from home and moving further
@@ -39,9 +41,9 @@ du -h 				    -shows disk usage in human format
 
 ls 					    -shows a list of what is in a directory
 
-	| xargs sudo 	    -is a command that takes stream of information and makes it an arugument 
-	du -s -h 		    -is useful to show the disk usage in human form while working with xargs
-	| sort -h  		    -is sorting in human format
+		-xargs sudo is a command that takes stream of information and makes it an arugument 
+		-du -s -h is useful to show the disk usage in human form while working with xargs
+		-sort -h is sorting in human format
 					    -EX: ls | xargs sudo du -s -h | sort -h
 
 mkdir "name"            -to make a directory
@@ -116,6 +118,8 @@ wc -l 					-(count number of files and folders)
 	
 
 
+
+
 <------Mangage local users and groups------>
 
 newusers			    -update and create new users in batch
@@ -129,6 +133,8 @@ usermod				    -modify a user account
 		-d -move a user to a new home directory
 		-L -lock an account
 		-l rename an account 
+
+
 
 
 
@@ -186,6 +192,8 @@ useradd "user name"     -how qto add a user
 
 
 
+
+
 <------Permissions------>
 
 chmod                   -change mode allows to change permissions to file system directories and files
@@ -193,6 +201,8 @@ chmod                   -change mode allows to change permissions to file system
 Chowmn                  -change owner
 
 ls -lsa     			-to list everything in the directory along with permissions
+
+
 
 
 
@@ -207,6 +217,8 @@ hostnamectl 			-used to query and change the system hostname and related setting
 kill -HUP or (PID) 	    -tells the service to reread the config file 
 
 SCP 				    -secure copy
+
+
 
 
 
@@ -235,6 +247,8 @@ Paging System
 
 
 
+
+
 <------Networking------>
 
 arp -a 				    -manipulates  or displays the kernel's IPv4 network neighbour cache
@@ -244,6 +258,8 @@ dig (can use -mx) 	    -tool for interrogating DNS name servers. Performs DNS lo
 tracepatch 				-traces path to a network host discovering MTU along this path
 
 traceroute			    -tracks  the route packets taken from an IP network on their way to a given host
+
+
 
 
 
@@ -282,6 +298,8 @@ Zipping
 
 
 
+
+
 <------Control Services and Daemons------>
 
 systemctl 			    -may be used to introspect and control the state of the "systemd" system and service manager
@@ -293,6 +311,8 @@ systemd 				-a service manager for Linux operating systems. It acts as init syst
 		ex = ls /etc/systemd/system -this shows local services that have been installed
 
 socat 				    -establishes two bidirectional byte streams  and  transfers  data  between  them
+
+
 
 
 
@@ -312,6 +332,8 @@ su   				    -allows you to switch users.  If left blank it gives you root
 sudo 				    -execute a command as another user, usually used as a one time command from root
 
 umask  					-file creation permission
+
+
 
 
 
@@ -350,6 +372,8 @@ linux cert book filetype:pdf - this is how we find books
 
 
 
+
+
 <------------------------------------------------Good ISH---------------------------------------------------------------------->
 
 Htop - an interactive process viewer
@@ -359,6 +383,8 @@ http://rpmfind.net/ - this is used to find repositories for programs
 logwatch - log analysis system. Logwatch parses through your system's logs and creates a report analyzing areas that you specify
 
 Zorin - a good distro for Linux
+
+
 
 
 
