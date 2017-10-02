@@ -21,57 +21,39 @@ cd ..                   -moves you one folder up
 cp 					    -copy files and directories
 
 cut
-``` 						
-
-				-d delimiter (whhat separates the rows? tabs, commas, spaces)
-				-f fields you would like to select (first row, last row, rows 2-3, first 5 rows, last five rows)
-				-c the number of characters you would like to select
-
-```						
+ 						
+		-d delimiter (whhat separates the rows? tabs, commas, spaces)
+		-f fields you would like to select (first row, last row, rows 2-3, first 5 rows, last five rows)
+		-c the number of characters you would like to select		
 
 df -h 				    -displays disk space available on the file system containing each file name argument
-```
 
-				-h makes it a human readable allowing to see in bytes and gb
-			    -df -h | sort -k5,2 -h -r  (sort by columns -k = columns adding numbers sorts by specific column.  Adding a comma allows to sort first column first and then by the second number) 
-			    -r reverses the order
-
-```					    
+		-h makes it a human readable allowing to see in bytes and gb
+		-df -h | sort -k5,2 -h -r  (sort by columns -k = columns adding numbers sorts by specific column.  Adding a comma allows to sort first column first and then by the second number) 
+		-r reverses the order
 
 du -h 				    -shows disk usage in human format
-````					    
 
-				-a -archive recursively, preserving permissions, ownership, links and not following symbolic links
-			    -R or -r -copies directories recursively
-
-````
+		-a -archive recursively, preserving permissions, ownership, links and not following symbolic links
+		-R or -r -copies directories recursively
 
 ls 					    -shows a list of what is in a directory
-```	
 
 	| xargs sudo 	    -is a command that takes stream of information and makes it an arugument 
 	du -s -h 		    -is useful to show the disk usage in human form while working with xargs
 	| sort -h  		    -is sorting in human format
 					    -EX: ls | xargs sudo du -s -h | sort -h
 
-```
-
 mkdir "name"            -to make a directory
-```					    
 
-				-m -set permissions on new directory
-			    -p -create parent directories if they don't exist				   
-
-```
+		-m -set permissions on new directory
+		-p -create parent directories if they don't exist				   
 
 mv 					    -moves or renames files and directories
-```				    
 
-			    -u -overwrites ony if destination is older than the source
-			    -f -replaces file without prompting
-			    -i -prompt before replaying file
-
-```
+		-u -overwrites ony if destination is older than the source
+		-f -replaces file without prompting
+		-i -prompt before replaying file
 
 Pipe command 		    -this is used to seperate a chain of commands 
 	"|" (shift \)	    -EX: ls -al | less
@@ -79,66 +61,53 @@ Pipe command 		    -this is used to seperate a chain of commands
 pwd				   	    -shows the current directory you in
 
 rm "name"               -to remove file	
-```					    
+					    
+		-r - removes directories recursively including the contents
+		-f -replaces file without prompting
+		-i -prompt before replaying file
 
-			    -r - removes directories recursively including the contents
-			    -f -replaces file without prompting
-			    -i -prompt before replaying file
 
-```
 
 rmdir "name"            -to remove directory 
-```					    
 
-			    -p -removes empty parent directories
-
-```
+		-p -removes empty parent directories
 
 seq 10 					-returns a sequences of numbers 1 to 10
 
 sudo find /var -type f -exec du -h {} \; | sort -h | head -20 
-```						
 
-				-find = will find folders, directories and so much more
-			    -/var = shows looking in the VAR folder, if just / will look in root
-			    -type f = looking for a specic type of something   
-		    	-d = dir 
-		  		-f=file (look on man pages for more info)
-				-exec = executing an aribtrary command on a file
-				-head -20 = this just gives me the first 20 items I want to look at,  tail = gives me the last of the items
-
-```
+		-find = will find folders, directories and so much more
+		-/var = shows looking in the VAR folder, if just / will look in root
+		-type f = looking for a specic type of something   
+		-d = dir 
+		-f=file (look on man pages for more info)
+		-exec = executing an aribtrary command on a file
+		-head -20 = this just gives me the first 20 items I want to look at,  tail = gives me the last of the items
 
 tar czvf file.tar.gz file1.txt file2.txt (example text file)
-```
 
-				-c create a tar archive
-				-z compress it with gzip / alternatively replace -z with -j for bzip compression (bz2 output extension)
-				-v show verbose output
-				-f specify the archive will out an output file
-				-file.tar.gz (output name)
+		-c create a tar archive
+		-z compress it with gzip / alternatively replace -z with -j for bzip compression (bz2 output extension)
+		-v show verbose output
+		-f specify the archive will out an output file
+		-file.tar.gz (output name)
 
-```
 
 tar xzvf file.tar.gz
-```
 
-				-x extract tar file
-				-z decompress using gzip
-				-v verbose output
-				-f read from file ;s
+		-x extract tar file
+		-z decompress using gzip
+		-v verbose output
+		-f read from file ;s
 
-```
 
 touch "name"            -to make a blank file
 
 tr 						-translate/delete characters
-```   						
 
-				-s squeeze repeated characters (compress multiple spaces into 1)
-				-d delete characters
+		-s squeeze repeated characters (compress multiple spaces into 1)
+		-d delete characters
 
-```
 
 wc -l  					-(count number of lines in file) 
 wc -c  					-(count number of characters in file)
@@ -156,12 +125,10 @@ useradd					-create a new user or update default new user information
 userdel					-delete a user account and related files
 
 usermod				    -modify a user account
-```					    
 
-			    -d -move a user to a new home directory
-			    -L -lock an account
-			    -l rename an account 
-```
+		-d -move a user to a new home directory
+		-L -lock an account
+		-l rename an account 
 
 
 
@@ -183,17 +150,15 @@ killall                 -sends signals to process by name
 lastb                   -gives a list of bad logins, use sudo to get the root level showing all bad logins, not only your users
 
 lsblk -f 			    -this gives information on drives or block devices
-```
 
-				NAME   FSTYPE LABEL     UUID                                 MOUNTPOINT
-				sda                                                          
-				├─sda1 ntfs   Windows 7 9E4A5AFE4A5AD31F                     
-				└─sda2 ext4             3329d6bf-09b3-4af5-8b02-c2b41dc22480 /
-				sdb                                                          
-				└─sdb1 ntfs   Data      6E86D5F486D5BD31                     
-				sr0 
+		NAME   FSTYPE LABEL     UUID                                 MOUNTPOINT
+		sda                                                          
+		├─sda1 ntfs   Windows 7 9E4A5AFE4A5AD31F                     
+		└─sda2 ext4             3329d6bf-09b3-4af5-8b02-c2b41dc22480 /
+		sdb                                                          
+		└─sdb1 ntfs   Data      6E86D5F486D5BD31                     
+		sr0 
 
-```
 
 nice                    -a particular priority, giving the process more or less CPU time than other processes
 
@@ -202,14 +167,11 @@ pgrep                   -look up or signal processes based on name and other att
 pkill                   -manage processes by terminal, group, username, PID, or command name
 
 ps aux                  -displays information about a selection of the active processes
-```						
 
-				a = show processes for all users
-                u = display the process's user/owner
-                x = also show processes not attached to a terminal
-                EX = ps aux | grep java -tells things that run in java
-
-```
+		a = show processes for all users
+		u = display the process's user/owner
+		x = also show processes not attached to a terminal
+		EX = ps aux | grep java -tells things that run in java
 
 ps auxwef               -gives and extreme view of the process tree
 
@@ -239,11 +201,8 @@ ls -lsa     			-to list everything in the directory along with permissions
 
 
 hostnamectl 			-used to query and change the system hostname and related settings
-```
 
 	AllowUsers - IMPORTANT Root login is only allowed for users in this group
-
-```
 
 kill -HUP or (PID) 	    -tells the service to reread the config file 
 
@@ -259,25 +218,19 @@ cd	/var/log 		    -this is where we find most of our logs
 dmesg 				    -print or control the kernel ring buffer
 
 journalctl -xe 			-used to query the contents of the systemd to see what works slash fails
-```
 
-				ex = journalctl --no-pager --since=2017-09-25 -u polkit > ~/(add name).txt -this shows exact date a service stopped, outputs to a txt file   
-
-```
+		ex = journalctl --no-pager --since=2017-09-25 -u polkit > ~/(add name).txt -this shows exact date a service stopped, outputs to a txt file   
 
 logrotate			    -rotates, compresses, and mails system logs
 
 Paging System
-```
 
-				-Shift + g 	-goes to the bottom
-				-gg 		-goes to the top
-				-/			-allows searching
-				-ctrl d 	-takes you down a page
-				-ctrl u 	-takes you up a page
-				-grep		-allows to do an advanced search
-
-```
+		-Shift + g 	-goes to the bottom
+		-gg 		-goes to the top
+		-/			-allows searching
+		-ctrl d 	-takes you down a page
+		-ctrl u 	-takes you up a page
+		-grep		-allows to do an advanced search
 
 
 
@@ -321,13 +274,10 @@ YUM						-rpm based, package manager
 zcat 					-compress or expand files into memory 
 
 Zipping
-```                        
 
-                -z -gzip compression
-                -j -bip2 compression
-                -J -xz compression
-
-```
+		-z -gzip compression
+		-j -bip2 compression
+		-J -xz compression
 
 
 
@@ -335,18 +285,12 @@ Zipping
 <------Control Services and Daemons------>
 
 systemctl 			    -may be used to introspect and control the state of the "systemd" system and service manager
-```
 
-				ex = systemctl --no -pager list -unit-files | grep service -this is an easy way to show all services enabled
-
-```
+		ex = systemctl --no -pager list -unit-files | grep service -this is an easy way to show all services enabled
 
 systemd 				-a service manager for Linux operating systems. It acts as init system that brings up and maintains userspace services
-```
 
-				ex = ls /etc/systemd/system -this shows local services that have been installed
-
-```
+		ex = ls /etc/systemd/system -this shows local services that have been installed
 
 socat 				    -establishes two bidirectional byte streams  and  transfers  data  between  them
 
