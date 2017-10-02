@@ -41,7 +41,7 @@ cp 					    -copy files and directories
 
 cut
  						
-		-d delimiter (whhat separates the rows? tabs, commas, spaces)
+		-d delimiter (what separates the rows? tabs, commas, spaces)
 		-f fields you would like to select (first row, last row, rows 2-3, first 5 rows, last five rows)
 		-c the number of characters you would like to select		
 
