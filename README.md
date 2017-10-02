@@ -1,7 +1,7 @@
 # linuxcheatsheet
 
 
-![Tux] "linux.jpg" width="400" height="200"
+![Tux](linux.jpg) =400x200
 
 
 
