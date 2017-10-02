@@ -1,7 +1,7 @@
 # linuxcheatsheet
 
 
-![Tux](linux.jpg | width=200)
+![Tux](linux.jpg {width=200})
 
 
 
