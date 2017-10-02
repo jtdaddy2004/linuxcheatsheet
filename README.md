@@ -530,10 +530,17 @@ Zorin - a good distro for Linux
 ```
 
 :Q! - get me the hell out of VI
+
 a = append
+
 dd = delete
+
 i = insert
+
 p = paste
+
 shift zz - Save and exit
+
 u = undo
+
 x = delete
