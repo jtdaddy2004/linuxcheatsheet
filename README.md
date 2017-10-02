@@ -2,18 +2,28 @@
 
 
 
-<img src="images/linux.jpg" alt="Tux" width="200px" />
+
 
 
 
 <------------------------------------------------Commands---------------------------------------------------------------------->
 
+```
+
+```
+
+<img src="images/linux.jpg" alt="Tux" width="200px" />
 
 
 
-<img src="images/file-manager.jpg" alt="FM" width="200px" />
 
 <------File Managment CMD------>
+
+```
+
+```
+
+<img src="images/file-manager.jpg" alt="FM" width="200px" />
 
 ~                       -is used to refer to home, putting a ~/ allows you to quickly type the path from home and moving further
 
@@ -121,9 +131,15 @@ wc -l 					-(count number of files and folders)
 	
 
 
-<img src="images/users.jpg" alt="Users" height="200px" />
+
 
 <------Mangage local users and groups------>
+
+```
+
+```
+
+<img src="images/users.jpg" alt="Users" height="200px" />
 
 newusers			    -update and create new users in batch
 
@@ -140,9 +156,15 @@ usermod				    -modify a user account
 
 
 
-<img src="images/process.png" alt="Process" width="200px" />
+
 
 <------Processes------>
+
+```
+
+```
+
+<img src="images/process.png" alt="Process" width="200px" />
 
 cat cpuinfo             -gives a very detailed print out of the CPU
 
@@ -195,9 +217,15 @@ useradd "user name"     -how qto add a user
 
 
 
-<img src="images/denied.jpg" alt="Denied" width="200px" />
+
 
 <------Permissions------>
+
+```
+
+```
+
+<img src="images/denied.jpg" alt="Denied" width="200px" />
 
 chmod                   -change mode allows to change permissions to file system directories and files
 
@@ -208,10 +236,15 @@ ls -lsa     			-to list everything in the directory along with permissions
 
 
 
-<img src="images/ssh.png" alt="SSH" width="200px" />
+
 
 <------SSH------>
 
+```
+
+```
+
+<img src="images/ssh.png" alt="SSH" width="200px" />
 
 hostnamectl 			-used to query and change the system hostname and related settings
 
@@ -224,9 +257,15 @@ SCP 				    -secure copy
 
 
 
-<img src="images/logs.png" alt="Logs" width="200px" />
+
 
 <------Analyzing and Storing Logs------>
+
+```
+
+```	
+
+<img src="images/logs.png" alt="Logs" width="200px" />
 
 cd	/var/log 		    -this is where we find most of our logs 
 
@@ -250,9 +289,15 @@ Paging System
 
 
 
-<img src="images/networking.jpg" alt="NW" width="200px" />
+
 
 <------Networking------>
+
+```
+
+```	
+
+<img src="images/networking.jpg" alt="NW" width="200px" />
 
 arp -a 				    -manipulates  or displays the kernel's IPv4 network neighbour cache
 
@@ -265,9 +310,16 @@ traceroute			    -tracks  the route packets taken from an IP network on their wa
 
 
 
-<img src="images/Copy-Paste.jpg" alt="Copy-Paste" width="200px" />
+
 
 <------Copy files between systems------>
+
+```
+
+```	
+
+<img src="images/Copy-Paste.jpg" alt="Copy-Paste" width="200px" />
+
 
 bzcat 					-decompresses in memory and decompressed file are sent to STDOUT
 
@@ -301,9 +353,15 @@ Zipping
 
 
 
-<img src="images/sysstl.jpg" alt="sysctl" width="200px" />
+
 
 <------Control Services and Daemons------>
+
+```
+
+```	
+
+<img src="images/sysstl.jpg" alt="sysctl" width="200px" />
 
 systemctl 			    -may be used to introspect and control the state of the "systemd" system and service manager
 
@@ -318,9 +376,15 @@ socat 				    -establishes two bidirectional byte streams  and  transfers  data 
 
 
 
-<img src="images/dp.jpg" alt="dp" width="200px" />
+
 
 <------Random------>
+
+```
+
+```
+
+<img src="images/dp.jpg" alt="dp" width="200px" />
 
 cat 				    -concatenate files and print on the standard output
 
@@ -339,10 +403,16 @@ umask  					-file creation permission
 
 
 
-<img src="images/dp2.jpg" alt="dp2" width="200px" />
+
 
 <------------------------------------------------Ninja Tricks---------------------------------------------------------------------->
 
+```
+
+```
+
+
+<img src="images/dp2.jpg" alt="dp2" width="200px" />
 
 history - gives the history of the commands you've run
 	! and the number will allow you to rerun that command
@@ -375,9 +445,18 @@ linux cert book filetype:pdf - this is how we find books
 
 
 
-<img src="images/tux.jpg" alt="tux" width="200px" />
+
+
+
+
 
 <------------------------------------------------Good ISH---------------------------------------------------------------------->
+
+```
+
+```
+
+<img src="images/tux.jpg" alt="tux" width="200px" />
 
 Htop - an interactive process viewer
 
@@ -390,9 +469,15 @@ Zorin - a good distro for Linux
 
 
 
-<img src="images/hi.jpg" alt="hi" width="200px" />
+
 
 <------------------------------------------------VI---------------------------------------------------------------------->
+
+```
+
+```
+
+<img src="images/hi.jpg" alt="hi" width="200px" />
 
 :Q! - get me the hell out of VI
 a = append
