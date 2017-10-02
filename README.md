@@ -243,7 +243,7 @@ useradd "user name"     -how qto add a user
 
 chmod                   -change mode allows to change permissions to file system directories and files
 
-Chowmn                  -change owner
+chown                  -change owner
 
 ls -lsa     			-to list everything in the directory along with permissions
 
@@ -539,7 +539,7 @@ i = insert
 
 p = paste
 
-shift zz - Save and exit
+:wq - Save and exit
 
 u = undo
 
