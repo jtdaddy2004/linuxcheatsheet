@@ -101,7 +101,9 @@ sudo find /var -type f -exec du -h {} \; | sort -h | head -20
 
 				-find = will find folders, directories and so much more
 			    -/var = shows looking in the VAR folder, if just / will look in root
-			    -type f = looking for a specic type of something   d = dir f=file (look on man pages for more info)
+			    -type f = looking for a specic type of something   
+		    	-d = dir 
+		  		-f=file (look on man pages for more info)
 				-exec = executing an aribtrary command on a file
 				-head -20 = this just gives me the first 20 items I want to look at,  tail = gives me the last of the items
 
